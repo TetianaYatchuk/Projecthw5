@@ -1,0 +1,85 @@
+@font-face {
+  font-family: regular;
+  font-weight: 400;
+  src: url(/fonts/IBMPlexMono-Regular.ttf);
+}
+
+@font-face {
+  font-family: italic;
+  font-weight: 400;
+  src: url(/fonts/IBMPlexMono-Italic.ttf);
+}
+
+h1,h2 {
+  font-family: italic;
+  font-weight: 400;
+  text-align: center;
+  color: blue;
+  background-color: cornflowerblue;
+}
+
+.header {
+  background-color: aqua;
+}
+
+ol.list {
+  font-family: italic;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+ol li {
+  text-align: center;
+}
+
+ol li.class {
+  font-size: 20px;
+  color: blueviolet;
+}
+
+ol li.id {
+  font-size: 30px;
+  color: chocolate;
+}
+
+ol li.element {
+  font-size: 20px;
+  color: blue;
+}
+
+ol li.element2 {
+  font-size: 30px;
+  color: cyan;
+}
+
+#block {
+  font-family: plexmono;
+  font-weight: 400;
+  text-align: center;
+  color: blueviolet;
+  line-height: 40px;
+} 
+
+#text {
+  font-size: 30px;
+  color: olivedrab;
+}
+
+p.text,p.text2 {
+  font-family: italic;
+  font-weight: 400;
+  color: darkcyan;
+  font-size: 30px;
+  line-height: 10px;
+}
+
+a {
+  font-family: regular;
+  font-weight: 400;
+  font-size: 20px;
+  color: lightcoral;
+}
+
+
+
+
